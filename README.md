@@ -23,7 +23,7 @@ Claude Code를 열고 아래 명령어를 붙여넣기하여 실행하세요:
 설치가 완료되면 Claude Code에서 입력:
 
 ```
-/onboarding
+/builder-onboarding
 ```
 
 ## 스킬이 하는 일
