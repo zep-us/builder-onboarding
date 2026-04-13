@@ -1,6 +1,6 @@
 ---
 name: builder-onboarding
-description: ZEP 빌더 온보딩. 비개발자가 처음부터 로컬 개발 서버를 실행할 수 있도록 안내한다. 필요한 모든 도구(Homebrew, git, gh, Node.js, pnpm, Infisical)를 자동 설치하고, zep-client 레포 클론 및 패키지 설치 후 로컬 서버를 띄운다. Triggers: "온보딩", "onboarding", "/onboarding", "개발환경 세팅", "로컬 서버 켜줘", "처음 시작", "builder-onboarding"
+description: "ZEP 빌더 온보딩. 비개발자가 처음부터 로컬 개발 서버를 실행할 수 있도록 안내한다. 필요한 모든 도구(Homebrew, git, gh, Node.js, pnpm, Infisical)를 자동 설치하고, zep-client 레포 클론 및 패키지 설치 후 로컬 서버를 띄운다. 온보딩, onboarding, /builder-onboarding, 개발환경 세팅, 로컬 서버 켜줘, 처음 시작 등의 요청에 반응한다."
 ---
 
 # ZEP 바이브 코딩 온보딩
