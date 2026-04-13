@@ -17,7 +17,7 @@
 Claude Code를 열고 아래 명령어를 붙여넣기하여 실행하세요:
 
 ```
-! curl -fsSL https://raw.githubusercontent.com/zep-us/onboarding/main/install.sh | bash
+! curl -fsSL https://raw.githubusercontent.com/zep-us/builder-onboarding/main/install.sh | bash
 ```
 
 설치가 완료되면 Claude Code에서 입력:

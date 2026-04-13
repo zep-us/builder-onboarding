@@ -2,7 +2,7 @@
 set -e
 
 SKILL_DIR="$HOME/.claude/skills/builder-onboarding"
-REPO_RAW="https://raw.githubusercontent.com/zep-us/onboarding/main"
+REPO_RAW="https://raw.githubusercontent.com/zep-us/builder-onboarding/main"
 
 echo ""
 echo "🚀 ZEP 빌더 온보딩 스킬을 설치합니다..."
