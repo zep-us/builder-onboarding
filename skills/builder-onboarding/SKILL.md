@@ -27,13 +27,13 @@ if [ -d "/opt/homebrew" ] && [ ! -w "/opt/homebrew" ]; then echo "PERMISSION_ISS
 
 결과가 `PERMISSION_ISSUE`이면 사용자에게 안내한다:
 
-> "Homebrew 폴더 권한을 먼저 수정해야 해요. 아래 명령어를 실행해주세요 (Mac 로그인 비밀번호가 필요해요):"
+> "Homebrew 폴더 권한을 먼저 수정해야 해요. Mac 기본 터미널을 새로 열어서 (Command+Space → '터미널' 검색) 아래 명령어를 붙여넣고 실행해주세요:"
 
 ```
-! sudo chown -R $(whoami) /opt/homebrew
+sudo chown -R $(whoami) /opt/homebrew
 ```
 
-> "비밀번호 입력 시 화면에 표시되지 않는 게 정상이에요. 완료되면 알려주세요!"
+> "Mac 로그인 비밀번호를 입력하라고 뜰 거예요. 입력 시 화면에 표시되지 않는 게 정상이에요. 완료되면 알려주세요!"
 
 사용자가 완료 신호를 보내면 1단계로 진행한다.
 결과가 `OK`이면 바로 1단계로 진행한다.
