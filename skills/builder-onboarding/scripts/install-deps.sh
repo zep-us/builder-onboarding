@@ -77,8 +77,7 @@ fi
 if ! command -v mkcert &>/dev/null; then
   log_step "mkcert 설치 중"
   brew install mkcert
-  mkcert -install
-  log_done "mkcert 설치 완료"
+  log_done "mkcert 설치 완료 (인증서 등록은 다음 단계에서 진행해요)"
 else
   log_skip "mkcert"
 fi
