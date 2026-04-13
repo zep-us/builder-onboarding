@@ -55,19 +55,15 @@ bash ~/.claude/skills/builder-onboarding/scripts/install-deps.sh
 
 사용자에게 다음을 안내한다:
 
-> "이제 GitHub 로그인이 필요해요. 아래 명령어를 실행해주세요:"
+> "GitHub 로그인이 필요해요. 터미널을 새로 열어서 아래 명령어를 실행해주세요:"
 
 ```
-! gh auth login
+gh auth login
 ```
 
 > "브라우저가 열리면 GitHub 계정으로 로그인하면 돼요. 완료되면 알려주세요!"
 
-사용자가 완료 신호를 보내면 다음 명령으로 확인:
-```bash
-gh auth status
-```
-성공 메시지가 보이면 다음 단계로 진행한다.
+사용자가 완료 신호를 보내면 다음 단계로 진행한다.
 
 ---
 
@@ -97,10 +93,10 @@ fi
 
 사용자에게 다음을 안내한다:
 
-> "환경변수 설정을 위해 Infisical 로그인이 필요해요. 아래 명령어를 실행해주세요:"
+> "환경변수 설정을 위해 Infisical 로그인이 필요해요. 터미널을 새로 열어서 아래 명령어를 실행해주세요:"
 
 ```
-! infisical login
+infisical login
 ```
 
 > "사내 이메일로 로그인하면 돼요. 완료되면 알려주세요!"

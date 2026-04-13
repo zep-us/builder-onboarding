@@ -73,6 +73,16 @@ else
   log_skip "Infisical CLI"
 fi
 
+# 7. mkcert (로컬 HTTPS 인증서 생성)
+if ! command -v mkcert &>/dev/null; then
+  log_step "mkcert 설치 중"
+  brew install mkcert
+  mkcert -install
+  log_done "mkcert 설치 완료"
+else
+  log_skip "mkcert"
+fi
+
 echo ""
 echo "=== 모든 도구 준비 완료! ==="
 echo ""
