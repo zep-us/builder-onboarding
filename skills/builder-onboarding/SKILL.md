@@ -1,6 +1,6 @@
 ---
-name: vibe-onboarding
-description: ZEP 바이브 코딩 온보딩. 비개발자가 처음부터 로컬 개발 서버를 실행할 수 있도록 안내한다. 필요한 모든 도구(Homebrew, git, gh, Node.js, pnpm, Infisical)를 자동 설치하고, zep-client 레포 클론 및 패키지 설치 후 로컬 서버를 띄운다. Triggers: "온보딩", "onboarding", "/onboarding", "개발환경 세팅", "로컬 서버 켜줘", "처음 시작"
+name: builder-onboarding
+description: ZEP 빌더 온보딩. 비개발자가 처음부터 로컬 개발 서버를 실행할 수 있도록 안내한다. 필요한 모든 도구(Homebrew, git, gh, Node.js, pnpm, Infisical)를 자동 설치하고, zep-client 레포 클론 및 패키지 설치 후 로컬 서버를 띄운다. Triggers: "온보딩", "onboarding", "/onboarding", "개발환경 세팅", "로컬 서버 켜줘", "처음 시작", "builder-onboarding"
 ---
 
 # ZEP 바이브 코딩 온보딩
@@ -9,7 +9,7 @@ description: ZEP 바이브 코딩 온보딩. 비개발자가 처음부터 로컬
 
 ## 스킬 위치
 
-이 스킬의 셸 스크립트는 `~/.claude/skills/vibe-onboarding/scripts/` 에 있다.
+이 스킬의 셸 스크립트는 `~/.claude/skills/builder-onboarding/scripts/` 에 있다.
 
 ## 실행 흐름
 
@@ -20,7 +20,7 @@ description: ZEP 바이브 코딩 온보딩. 비개발자가 처음부터 로컬
 ### 1단계: 개발 도구 자동 설치
 
 ```bash
-bash ~/.claude/skills/vibe-onboarding/scripts/install-deps.sh
+bash ~/.claude/skills/builder-onboarding/scripts/install-deps.sh
 ```
 
 - 스크립트 출력을 그대로 보여주되, 완료 후 "모든 도구가 준비됐어요!" 라고 안내한다.
